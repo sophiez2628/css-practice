@@ -57,7 +57,45 @@ p {
 }
 
 @media (max-width: 700px) {
+  h1 {
+    font-size: 80px;
+  }
 
+  li {
+    width: 33.3333333%;
+  }
+
+  li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  li {
+    width: 50%;
+  }
+
+  li:nth-child(3), li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  li {
+    width: 100%;
+  }
+
+  li:nth-child(2), li:nth-child(3), li:nth-child(4) {
+    display: none;
+  }
 }
 /*why use ul and li to organize pics? border radius on img, float li*/
 /*what is line height?*/
