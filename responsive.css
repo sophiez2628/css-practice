@@ -1,0 +1,66 @@
+html, body, main, h1, ul, li, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+  box-sizing: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.1;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+h1 {
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+p {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+
+}
+/*why use ul and li to organize pics? border radius on img, float li*/
+/*what is line height?*/
+/*float the li which contains img, set width of img to 100%, while setting li to 25% */
+/*can also set max width on a container*/
+/*border sizing is also really important - border-box(width/height counts padding and border)*/
