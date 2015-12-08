@@ -12,6 +12,15 @@ span, input[type="text"] {
   background: transparent;
 }
 
+.search {
+  border: 1px solid grey;
+}
+
+input[type="text"] {
+  display: block;
+  width: 452px;
+  height: 26px;
+}
 ul {
   list-style: none;
 }
@@ -20,11 +29,17 @@ main {
   margin: 100px auto;
 }
 
-/*how to place image in the middle?*/
+.bottom {
+  width: 540px;
+  margin: auto;
+}
+/*how to place image in the middle? switch to auto vs 0px*/
 
 .google-logo {
   background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
-  width: 540px;
-  height: 180px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 272px;
+  height: 100px;
   margin: auto;
 }
